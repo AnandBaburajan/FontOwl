@@ -1,0 +1,25 @@
+{
+  "name": "Font Owl",
+  "version": "1.0",
+  "description": "Change the problem font on CodeForces!",
+  "permissions": ["activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "images/font_owl_16.png",
+      "32": "images/font_owl_32.png",
+      "48": "images/font_owl_48.png",
+      "128": "images/font_owl_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/font_owl_16.png",
+    "32": "images/font_owl_32.png",
+    "48": "images/font_owl_48.png",
+    "128": "images/font_owl_128.png"
+  },
+  "manifest_version": 2
+}
